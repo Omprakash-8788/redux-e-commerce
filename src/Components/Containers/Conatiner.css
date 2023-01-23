@@ -1,0 +1,17 @@
+.Loading{
+    color: blue;
+    font-size: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin: 9cm;
+    
+}
+
+.Header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.HeaderSection{
+    height: auto;
+}

@@ -5,15 +5,17 @@ import ProductListing from "./ProductListing";
 
 const Header = () => {
   return (
-    <div>
-      <div style={{ fontSize: "1cm" }}>
-        <AppBar style={{ height: "1cm" }}>Fake Shop</AppBar>
+    <>
+      <div className="ui fixed menu">
+        <div className="ui container center">
+          <h2 className="Header">E- commerce website</h2>
+        </div>
       </div>
-      <div>
-        <ProductListing />
-      </div>
-      <Outlet />
-    </div>
+
+    <Outlet/>
+   
+    </>
+     
   );
 };
 
